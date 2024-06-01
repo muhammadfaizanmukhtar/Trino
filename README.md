@@ -11,6 +11,7 @@ https://trino.io/docs/current/installation/deployment.html
 
 
 Steps:
+
 wget https://repo1.maven.org/maven2/io/trino/trino-server/449/trino-server-449.tar.gz
 
 tar xzvf trino-server-449.tar.gz
@@ -65,8 +66,6 @@ vim trino-server-449/etc/jvm.config
 -Djdk.nio.maxCachedBufferSize=2000000
 
 -Dfile.encoding=UTF-8
-
-# Allow loading dynamic agent used by JOL
 
 -XX:+EnableDynamicAgentLoading
 
