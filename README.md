@@ -10,6 +10,7 @@ https://trino.io/docs/current/installation/deployment.html
 
 Steps:
 wget https://repo1.maven.org/maven2/io/trino/trino-server/449/trino-server-449.tar.gz
+
 tar xzvf trino-server-449.tar.gz
 
 mkdir -p trino-server-449/etc/catalogs
