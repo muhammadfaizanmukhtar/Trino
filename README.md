@@ -11,6 +11,7 @@ https://trino.io/docs/current/installation/deployment.html
 
 Note, Trino latest available versions are as follows: 
 https://repo1.maven.org/maven2/io/trino/trino-server/
+
 Steps:
 
 wget https://repo1.maven.org/maven2/io/trino/trino-server/449/trino-server-($Version).tar.gz
