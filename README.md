@@ -12,6 +12,7 @@ https://trino.io/docs/current/installation/deployment.html
 Note, Trino latest available versions are as follows: 
 https://repo1.maven.org/maven2/io/trino/trino-server/
 
+
 Steps:
 
 wget https://repo1.maven.org/maven2/io/trino/trino-server/449/trino-server-($Version).tar.gz
@@ -25,8 +26,8 @@ Create a dedicated directory for storing its logs
 mkdir -p /var/trino/data
 
 
-vim trino-server-449/etc/node.properties
-
+**vim trino-server-449/etc/node.properties
+**
 node.environment=production
 
 node.id=ffffffff-ffff-ffff-ffff-ffffffffffff
@@ -36,7 +37,7 @@ node.data-dir=/var/trino/data
 Note: node.id can be any unique identifier.
 
 
-vim trino-server-449/etc/jvm.config
+**vim trino-server-449/etc/jvm.config**
 
 -server
 
@@ -80,8 +81,8 @@ Note: Based on your available memory in your node, you can configure Xmx to your
 
 
 
-vim trino-server-449/etc/config.properties
-
+**vim trino-server-449/etc/config.properties
+**
 The following is a minimal configuration for the coordinator:
 
 coordinator=true
@@ -112,7 +113,7 @@ http-server.http.port=8080
 discovery.uri=http://example.net:8080
 
 
-vim trino-server-449/etc/log.properties
+**vim trino-server-449/etc/log.properties**
 
 io.trino=INFO
 
