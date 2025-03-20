@@ -1,11 +1,13 @@
 # Trino
-Deployment &amp; Configurations of Trino
+**Deployment &amp; Configurations of Trino**
+
 
 **Introduction**
 Trino, formerly known as Presto SQL, is an open-source distributed SQL query engine designed for running interactive analytic queries against data sources of various sizes. It was initially developed by Facebook and later became a project of the Presto Software Foundation. Trino is optimized for low-latency queries on data stored in various data stores, including Hadoop Distributed File System (HDFS), Amazon S3, Apache Hive, relational databases like MySQL, PostgreSQL, and many others.
 
 
-Installation:
+**Installation:
+**
 You must visit its official website to download latest trino release.
 https://trino.io/docs/current/installation/deployment.html
 
@@ -13,7 +15,8 @@ Note, Trino latest available versions are as follows:
 https://repo1.maven.org/maven2/io/trino/trino-server/
 
 
-Steps:
+**Steps:
+**
 
 wget https://repo1.maven.org/maven2/io/trino/trino-server/449/trino-server-($Version).tar.gz
 
