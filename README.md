@@ -34,6 +34,7 @@ mkdir -p /var/trino/data
 node.environment=production
 
 node.id=ffffffff-ffff-ffff-ffff-ffffffffffff
+#It should be any unique identifier
 
 node.data-dir=/var/trino/data
 
